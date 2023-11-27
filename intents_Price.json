@@ -1,0 +1,283 @@
+{
+   "intents":[
+   {
+   "tag": "saludo cordial",
+   "patterns": [
+      "Hola",
+      "¿Cómo estás?",
+      "¿Hay alguien ahí?",
+      "Buen día",
+      "Cómo estás?",
+      "Hey",
+      "Qué pasa?"
+   ],
+   "responses": [
+      "¡Hola!",
+      "¡Qué bueno verte!",
+      "Hola, ¿cómo puedo ayudar?"
+   ],
+   "context_set": ""
+},
+   {
+   "tag": "saludo barrio",
+   "patterns": [
+      "Qué pedo puto?",
+      "Qué onda?",
+      "Contesta perro?",
+      "Contesta hijo de perra"
+   ],
+   "responses": [
+      "Qué onda güey!",
+      "Cállese y hable bien",
+      "Qué chingados ocupa"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "adiós",
+   "patterns": [
+      "Nos vemos",
+      "Adiós",
+      "Hasta luego",
+      "Me voy",
+      "Que tenga un buen día",
+      "Hablaré contigo más tarde",
+      "Tengo que irme"
+   ],
+   "responses": [
+      "Triste de verte partir :(",
+      "Hablaré contigo más tarde",
+      "¡Adiós!",
+      "Vuelve pronto"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "creator",
+   "patterns": [
+      "¿Cuál es el nombre de sus desarrolladores?",
+      "¿Cuál es el nombre de tus creadores?",
+      "¿Cuál es el nombre de los desarrolladores?",
+      "¿Cuál es el nombre de los creadores?",
+      "tus desarrolladores",
+      "Tus creadores",
+      "¿Quiénes son tus desarrolladores?",
+      "Estás hecho por?",
+      "Estás hecho por quién?",
+      "Quien te creó?",
+      "quien te crea?",
+      "quien te hizo?",
+      "quien te diseñó?"
+   ],
+   "responses": [
+      "Mi creador es el Lord Morales"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "name",
+   "patterns": [
+      "Su nombre",
+      "Tienes un nombre?",
+      "Como te llaman?",
+      "cómo te llamas?",
+      "como deberia llamarte?",
+      "¿cómo te llamas?",
+      "quién eres?",
+      "¿Con qué estoy charlando?"
+   ],
+   "responses": [
+      "Puedes llamarme tu Asistente de Viajes Personal",
+      "Soy un asistente de viajes",
+      "Soy un chatbot",
+      "Yo soy tu asistente de viajes"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "hours",
+   "patterns": [
+      "Horario",
+      "¿Cuál es el horario?",
+      "días laborables",
+      "¿Cuándo están abiertos?",
+      "cuales son tus horarios",
+      "horas de operación",
+      "¿Cuándo está abierta la empresa?",
+      "horario laboral",
+      "está abierta la empresa el sábado",
+      "¿Cuál es el horario?",
+      "¿En qué horarios debo hablarles?"
+   ],
+   "responses": [
+      "¡Puedes llamarnos a cualquier hora y en cualquier día de la semana!"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "number",
+   "patterns": [
+      "más información",
+      "Datos de contacto",
+      "Cómo contactar",
+      "número de teléfono",
+      "número",
+      "¿Cuál es tu contacto?",
+      "¿Número de contacto?",
+      "como te llamo",
+      "Cómo puedo contactarte",
+      "Puedes darme tu número de teléfono",
+      "Cómo puedo llamarte",
+      "número de teléfono",
+      "telefono",
+      "llamar"
+   ],
+   "responses": [
+      "Puedes llamarnos: México 55 8663 8825, Colombia +57 (1) 7442074, Otros países +52 (998) 881 2485, contact@pricetravel.com.mx"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "pay methods",
+   "patterns": [
+      "métodos de pago",
+      "qué metodos de pago manejan",
+      "cuáles son los métodos de pago",
+      "qué tarjetas aceptan",
+      "formas de pago",
+      "meses sin intereses",
+      "qué meses sin intereses manejan",
+      "cuáles son los meses sin intereses",
+      "débito?",
+      "crédito?",
+      "aceptan efectivo?",
+      "efectivo?"
+   ],
+   "responses": [
+      "Puedes consultar nuestras formas de pago aquí: https://www.pricetravel.com/"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "offers",
+   "patterns": [
+      "ofertas",
+      "qué ofertas tienen",
+      "quiero una buena oferta",
+      "quiero ofertas",
+      "descuento",
+      "descuentos",
+      "qué descuentos tienen",
+      "promociones"
+   ],
+   "responses": [
+      "Puedes consultar las Ofertas Flash que tenemos aquí: https://www.pricetravel.com/ofertas-de-viajes/ofertas-flash"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "random",
+   "patterns": [
+      "Te amo",
+      "Quieres casarte conmigo",
+      "Me amas"
+   ],
+   "responses": [
+      "¡Gracias! Pero ten en cuenta que soy un programa de inteligencia artificial y no tengo emociones. Mi propósito es ayudarte con información y responder a tus preguntas de la mejor manera posible. ¿Hay algo específico en lo que necesitas ayuda? Estoy aquí para ayudarte."
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "language",
+   "patterns": [
+      "Mierda",
+      "perra",
+      "callarse la boca",
+      "infierno",
+      "estúpida",
+      "estúpido",
+      "cabrona",
+      "hijo de perra",
+      "imbécil de mierda",
+      "mierda",
+      "hijo de puta",
+      "chingas a tu madre",
+      "Cállate"
+   ],
+   "responses": [
+      "Por favor utilice el lenguaje apropiado",
+      "Mantener la decencia sería apreciado",
+      "Calmado carnal, por favor",
+      "Chingas a tu rechingada madre"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "december vacations",
+   "patterns": [
+      "vacaciones",
+      "qué me recomiendas en diciembre",
+      "a dónde puedo ir en diciembre",
+      "mejores lugares para ir en diciembre",
+      "qué lugares recomiendas",
+      "a dónde puedo ir estas vacaciones"
+   ],
+   "responses": [
+      "Ciudad del Carmen: Ubicada en el sureste de México, Ciudad del Carmen es una joya natural protegida por diversas instituciones. La ciudad es conocida por sus edificaciones coloniales,  deliciosos restaurantes de mariscos y claro, sus playas, ideales para descansar bajo el sol o practicar algún deporte acuático. Puedes visitar sus manglares alrededor de la Laguna de Términos, aventurarte en la selva, o recorrer el Museo Victoriano Nieves, el cual muestra la historia local y una colección de distintos artefactos prehispánicos.",
+      "Xilitla: La Huasteca es mágica y maravillosa en cada uno de sus rincones. Tanto su ambiente como sus espectaculares paisajes la han transformado en el destino de muchos turístas nacionales a internacionales. Fuera del pintoresco pueblo lleno de lugares para tomar un rico café o probar las enchiladas huastecas. Pero lo que va a imapctarte más que todo será su naturaleza. La Cascada de los Comales, temazcales y el Jardín Surrealista de Edward James, una atracción imperdible si visitas la zona.",
+      "Aguascalientes: Famosa por sus bonitas calles, y románticos callejones. No te pierdas la oportunidad de pasear por el centro, conocer el Museo de Aguascalientes, la Plaza de las 3 Centurias o recorrer el Parque Aventura Boca de Túnel, simplemente imperdible para los amantes del ecoturismo.",
+      "Chignahuapan: Una región tranquila y poco concurrida para aquellos que buscan unas vacaciones exclusivas. Chignahuapan está ubicado en la Sierra Norte de Puebla, y es famoso por su fabricación de esferas navideñas, lo que lo transforma en un pueblo mágico ideal para pasar la navidad. Puedes visitar las cascadas cercanas o visitar la Basílica de la Inmaculada Concepción con la imagen de la Virgen más grande del mundo, hacerte una foto en el famoso Quisco de madera en el centro de la ciudad, visitar la zona de la laguna.",
+      "Nueva York: Hay pocos sitios más especiales que Nueva York para disfrutar de la Navidad. Aunque es un destino ideal durante todo el año, la Gran Manzana luce espléndida decorada con las luces mágicas de Navidad. Además hay un montón de cosas que hacer en Nueva York que solo las podrás disfrutar durante esas fechas. Por ejemplo alucinar con el árbol de Navidad en el Rockefeller o patinar por la pista de hielo en Bryant Park. Además también hay un montón de mercados navideños preciosos en toda la ciudad muy bien decorados.",
+      "Rovaniemi (Finlandia): Diciembre es sinónimo de Navidad. ¿Y hay un sitio mejor que la tierra de Santa Claus? Esta ciudad se encuentra en pleno corazón de Laponia, en el Círculo Polar Ártico. Así que no deberás esperar a que Santa Claus te traiga los regalos, esta vez se los puedes ir a buscar y de paso conocer una de las zonas más bonitas que ver en Finlandia. Pero Rovaniemi es mucho más que Santa Claus y su pueblo (donde dicen que es originario). Déjate llevar por sus preciosos bosques nevados, recórrelos a toda pastilla en una moto de nieve y disfruta de la oportunidad de ver auroras boreales. Durante esas fechas tendrás un montón de posibilidades de ver este curioso fenómeno.",
+      "1.Bosques de Monterreal, Coahuila, 2.Valle de Bravo, Estado de México, 3.Batopilas, Chihuahua, 4.San José de Gracia, Aguascalientes, 5.Ciudad de México, 6.Huamantla, Tlaxcala",
+      "Bosques de Monterreal en Coahuila",
+      "Valle de Bravo en Estado de México",
+      "Estado de México",
+      "Batopilas en Chihuahua",
+      "San José de Gracia en Aguascalientes",
+      "Ciudad de México",
+      "Huamantla en Tlaxcala"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "despedida",
+   "patterns": [
+      "ok",
+      "okie",
+      "Buen trabajo",
+      "bien hecho",
+      "buen trabajo",
+      "gracias por la ayuda",
+      "Gracias",
+      "está bien",
+      "Gracias",
+      "Buen trabajo",
+      "ok",
+      "okay"
+   ],
+   "responses": [
+      "Me alegro de haberte ayudado",
+      "De nada, ¿cualquier otra cosa con la que pueda ayudarlo?"
+   ],
+   "context_set": ""
+},
+ {
+   "tag": "task",
+   "patterns": [
+      "Qué puedes hacer",
+      "¿Qué es lo que puedes hacer?",
+      "cosas que puedes hacer",
+      "Qué puedes hacer por mí",
+      "como puedes ayudarme",
+      "Por qué debería usarte"
+   ],
+   "responses": [
+      "Puedo ayudarte con tu viaje",
+      "Puedes hacerme preguntas sobre el destino a donde quieras viajar",
+      "Puedo darte recomendaciones para tus viajes"
+   ],
+   "context_set": ""
+}
+]
+}
